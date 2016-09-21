@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# version-1.0.9
+
+
+NETWORK:
+*
+
+FALLBACK:
+appcache.css fallback.css
+
+CACHE:
+appcache.js

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Web storage API - Session Storage (iframe)</title>
+        <link href="web-storage.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>Web storage - Session Storage</div>
+        <form action="" method="post" onsubmit="return false">
+            <fieldset>
+                <legend>Name : Value</legend>
+                <input type="text" class="text" value="" name="session-storage" id="session-storage-name"><span>:</span>
+                <input type="text" class="text" value="" name="session-storage" id="session-storage-value">
+                <input id="setSession" type="button" value="SET" name="">
+            </fieldset>
+        </form>
+        <div class="title">Current browser's session storage data</div>
+        <table id="data-table">
+            <thead><tr><th>Name</th><th>Value</th></tr></thead>
+            <tbody>
+                <tr><td colspan="2">The session storage is empty</td></tr>
+            </tbody>
+        </table>
+        <!--
+        <div class="align-center padding-top20px">
+            <iframe src="http://example.com:5000/" width="500" height="500">
+        </div>
+        -->
+    <script type="text/javascript" src="web-storage.js"></script>
+    </body>
+</html>

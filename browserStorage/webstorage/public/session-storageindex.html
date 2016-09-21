@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Web storage API - Session Storage</title>
+        <link href="web-storage.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>Web storage - Session Storage</div>
+        <form action="" method="post" onsubmit="return false">
+            <fieldset>
+                <legend>Name : Value</legend>
+                <input type="text" class="text" value="" name="session-storage" id="session-storage-name"><span>:</span>
+                <input type="text" class="text" value="" name="session-storage" id="session-storage-value">
+                <input id="setSession" type="button" value="SET" name="">
+            </fieldset>
+        </form>
+        <div class="title">Current browser's session storage data</div>
+        <table id="data-table">
+            <thead><tr><th>Name</th><th>Value</th></tr></thead>
+            <tbody>
+                <tr><td colspan="2">The session storage is empty</td></tr>
+            </tbody>
+        </table>
+        <div class="align-center padding-top20px">
+            <input type="button" value="open new window" onClick="window.open('http://example.com:5000/static', 'newwindow', 'width=1000, height=800');">
+        </div>
+        <div class="align-center padding-top20px">
+            <a href="http://example.com:5000/" target="_blank">open</a>
+        </div>
+    <script type="text/javascript" src="web-storage.js"></script>
+    </body>
+</html>
