@@ -1,0 +1,9 @@
+retry: 10000
+id: 14
+
+: this is a comment
+data: Welcome folks!
+data: ghread.me is my fun website
+
+event: welcome
+data: please, subscribe to my channel :)
